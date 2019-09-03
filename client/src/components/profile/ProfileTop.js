@@ -21,25 +21,21 @@ const ProfileTop = ({
       <p>{location && <span>{location}</span>}</p>
       <div class='icons my-1'>
         {website && (
-          // eslint-disable-next-line
           <a href={website} target='_blank' rel='noopener noreferrer'>
             <i class='fas fa-globe fa-2x'></i>
           </a>
         )}
         {social && social.twitter && (
-          // eslint-disable-next-line
           <a href={social.twitter} target='_blank' rel='noopener noreferrer'>
             <i class='fab fa-twitter fa-2x'></i>
           </a>
         )}
         {social && social.facebook && (
-          // eslint-disable-next-line
           <a href={social.facebook} target='_blank' rel='noopener noreferrer'>
             <i class='fab fa-facebook fa-2x'></i>
           </a>
         )}
         {social && social.linkedin && (
-          // eslint-disable-next-line
           <a href={social.linkedin} target='_blank' rel='noopener noreferrer'>
             <i class='fab fa-linkedin fa-2x'></i>
           </a>
